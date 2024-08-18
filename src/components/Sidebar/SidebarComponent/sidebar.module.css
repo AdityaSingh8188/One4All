@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh);
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.user{
+  padding-top: 50px;
+  flex :1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap:10px
+}
+
+.imgCnt{
+  object-fit: cover;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(147, 51, 234);
+  border-width: 5px;
+
+}
+.avatar{
+  border-radius: 50%;
+}
+
+
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px
+
+}
+.sideitems{
+  flex :2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px
+}
